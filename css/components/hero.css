@@ -1,0 +1,30 @@
+.hero {
+    background-size: cover;
+    background: url('../../img/hero.jpg') no-repeat 50%;
+    background-size: cover;
+    color: #fff;
+    font-family: Arial;
+    height: 100%;
+    padding-top: 93px;
+    padding-bottom: 136px;
+}
+.hero-title {
+    padding-left: 28px;
+    padding-top: 128px;
+}
+.hero-subtitle {
+    margin: 29px 0 36px 17px;
+}
+@media (max-width: 991px ){
+    .hero-title {
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .hero {
+        padding-bottom: 56px;
+    }
+    .hero .hero-subtitle {
+        font-size: 37px;
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,18 @@
+.btn-header {
+    background-color: #fed136;
+    color: #fff;
+    border: solid #fed136;
+    font-size: 24px;
+    padding: 12px 30px 12px 30px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.btn-header:hover {
+    background-color: #fff;
+    color: #fed136;
+    transition: 0.4s;
+}
+.button-section-contact {
+    justify-content: center;
+}

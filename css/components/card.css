@@ -1,0 +1,17 @@
+.card-portfolio {
+    padding-bottom: 50px;
+}
+.section-services-card {
+    padding: 0 26px;
+}
+.section-services-card img {
+    padding-left: 17px;
+    margin-top: -7px;
+}
+.card-size {
+    height: 300px;
+}
+.card-img-team {
+    width: 100%;
+    height: auto;
+}

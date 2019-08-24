@@ -1,0 +1,72 @@
+.section-contact {
+    background: url('../../img/card2.png') no-repeat 100%;
+    background-size: cover;
+}
+.section-title {
+    padding-top: 104px;
+    padding-left: 19px;
+    font-size: 40px;
+}
+.section-subtitle {
+    padding-bottom: 80px;
+}
+.section-top {
+    text-align: center;
+}
+.section-portfolio, .section-team {
+    background-color: #f7f7f7;
+}
+.section-contact {
+    color: #ffffff;
+}
+.section-font {
+    font-size: 18px;
+}
+.section-image-title {
+    padding-top: 19px;
+}
+.section-team, .section-contact {
+    padding-bottom: 120px;
+}
+.section-services {
+    padding-bottom: 100px;
+}
+.section-images {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section-images .card {
+    border: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section-team-content {
+    padding-top: 20px;
+}
+@media (max-width: 991px ){
+    .section-images {
+        padding-top: 20px;
+    }
+    .section-images .card-img-team {
+        margin-bottom: 10px;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+    }
+    .section-title {
+        padding-left: 0;
+        padding-top: 50px;
+    }
+    .section-portfolio, .section-team, .section-images, .section-services {
+        padding-bottom: 20px;
+    }
+    .section-services-card img {
+        padding-left: 0;
+    }
+}
+@media (max-width: 767px ) {
+    .section-team-container {
+        justify-content: center;
+    }
+}

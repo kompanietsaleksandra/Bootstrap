@@ -1,0 +1,9 @@
+.form-textarea {
+    min-height: 210px;
+}
+.form-input {
+    min-height: 50px;
+}
+.form-group-input {
+    padding-bottom: 14px;
+}
